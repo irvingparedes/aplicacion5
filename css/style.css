@@ -1,0 +1,45 @@
+
+  <p{color:blue;}    
+   
+   body{background-color:#999999;}
+ h2{
+	color: #C0F;
+	font-weight: verdana;
+	background-color: #CFF;
+}
+h3{color:#393;}
+h4{
+	color: #39C;
+	font-family: , cursive;
+}
+h5{
+	color: #9FF;
+	font-size: 1pt;
+}
+.purpura{
+	color: purple;
+	font-weight: 500;
+	font-size: 1em;
+	font-style: italic;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: uppercase;
+	background-color: #CC0;
+	letter-spacing: 1em;
+	vertical-align: middle;
+	word-spacing: 3em;
+	text-decoration: overline;
+	background-repeat: repeat-x;
+	background-position: left;
+	text-align: center;
+	text-indent: 9;
+	white-space: nowrap;
+	display: table-row-group;
+}
+h1{color:red;font-size:50px;width:178px;} -->
+
+.tama{
+	font-size: 60px;
+font-family:Arial:Helvetica, sans-serif; 	background-attachment: scroll;
+	background-position: 65em 76em;
+}

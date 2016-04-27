@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dia de la Tierra</title>
+<!-- Start wow/wow/data1Slider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="wow/engine1/style.css" />
+	<script type="text/javascript" src="wow/engine1/jquery.js"></script>
+	<!-- End wow/wow/data1Slider.com HEAD section -->
+</head>
+<!--grupo CSS-->
+<link rel="stylesheet" href="../apptierra/css/appti.min.css"/>
+<link rel="stylesheet" href="../apptierra/css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="../apptierra/css/jquery.mobile.structure-1.4.5.min.css"/>
+<link rel="stylesheet" href="../apptierra/css/style2.css" type="text/css" media="all"/>
+<!--grupo JavaScript-->
+<script src="../apptierra/js/jquery-1.11.2.min.js"></script>
+<script src="../apptierra/js/jquery.mobile-1.4.5.min.js"></script>
+<script src="../apptierra/js/acciones.js"></script>
+<script src="../apptierra/acciones" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/co2.jpg','imagenes/di2.jpg','imagenes/cu2.gif','imagenes/medio2.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-back-btn-theme="a">
+    <center>
+      <h1>Dia de la tierra<br></h1></center>
+   </div>     
+     <!--       VISOR DE IMAGENES DE MI COMUNIDAD-->
+ <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>comunidad</h1>
+   <div>
+   </div>
+   <div><!--imagen--><p>fsdfsdfsdfsdfsdfsdf</p> </div>
+   </div>
+   </div>
+    
+      <!--       VISOR DE IMAGENES DE MI COMUNIDAD-->
+      
+   <div>
+   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2 class="nose">DIA QUE SE CONMEMORA </h2>
+   
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>POR QUE SE CELEBRA</h2>
+   
+   </a>
+   </li>
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>CUIDADOS</h2><!-- PONER DOS COLAPSABLES-->
+ 
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>CAMBIO CLIMATICO </h2>
+   
+   </a>
+   </li>   
+   </ul>
+   
+   <P  ><b>"Si desaparecieran todos los insectos de la tierra, en menos de 50 años desaparecería toda la vida. 
+       
+       Si todos los seres humanos desaparecieran de la tierra, en menos de 50 años todas las formas de vida florecerían".</b></P>
+
+     </div>
+     
+     
+     
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+   
+   <img src="../apptierra/res/android/ti.png" width="46" height="46">
+   </div>
+    <div>
+    <h4><b>Dia de la Tierra</b></h4>
+    <h4>irving paredes ramirez </h4>
+    </div>
+    </div>
+  </div>  
+  
+  
+  
+     
+     <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>¿Que dia se conmemora?</h1>
+           </div>
+        
+<p>El 22 de abril de cada año se celebra el Día Mundial de la Tierra. Su nacimiento viene del movimiento ambientalista moderno, el cual se inició en 1970 cuando 20 millones de norteamericanos tomaron las calles, los parques y los auditorios para manifestarse por un ambiente saludable y sustentable.</p>
+<center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/co2.jpg',1)"><img src="imagenes/co.jpg" width="318" height="159" id="Image24"></a></center><br>
+
+
+       
+     
+
+ 
+
+             <div data-role="footer"data-theme="b" data-position="fixed">
+       <h4>Dia de la Tierra, IPR </h4>
+       </div>
+       </div>
+       </div>
+       
+       <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Por que se celebra?</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <P> 
+La intensión es sensibilizar a la humanidad de que es parte del planeta Tierra y sus huellas marcarán el destino del mundo, por eso reducir (el consumo), reciclar y reutilizar objetos es la forma en que cada uno día a día puede colaborar para evitar la contaminación ambiental. </P>
+       
+      <br>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/di2.jpg',1)"><img src="imagenes/di.jpg" width="570" height="651" id="Image20"></a>
+      
+       </div>
+       <div data-role="footer"data-theme="b" data-position="fixed">
+       <h4>Dia de la Tierra, IPR</h4>
+       </div>
+       </div>
+       </div>
+       
+       
+       
+       <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>CUIDADOS</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+              
+        <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>Cuidados del planeta</h1>
+   <div>
+   </div>
+   <div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/cu2.gif',1)"><img src="imagenes/cu.png" width="682" height="641" id="Image10"></a></div>
+                 <p> ¡Cierra la llave!<br>   Apaga los aparatos eléctricos mientras no los utilices<br>Utiliza bombillos ahorradores<br>Cuidado con las bolsas<br>Si hay luz natural no ocupas encender el bombillo<br>Recicla y decora<br> intenta tener al menos una planta <br>No gastes combustible en vano<br>
+ </p>
+        </div>
+   </div>
+       
+       
+        <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>Cuidados del medio ambiente</h1>
+   <div>
+   </div>
+   <div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/medio2.jpg',1)"><img src="imagenes/medio.jpg" width="638" height="479" id="Image18"></a>
+             <p> 1.- Separa la basura<br>
+
+2.- Lleva tus propias bolsas<br>
+
+3.- Consume la menor cantidad de productos desechables<br>
+4.- Prefiere las pilas recargables en vez de las communes<br>
+
+5.- Modera el uso de pañuelos faciales<br>
+
+7.- En cuanto al cuidado de agua, si lavas los trastes, cierra el grifo mientras los enjabonas, de igual manera cierra la llave de la regadera cuando te talles y cuando te laves los dientes sólo necesitas un vaso con agua para enjuagarte.<br>
+
+8.- Si riegas el jardín, procura hacerlo ya avanzada la tarde, ya que con esto evitarás que el sol evapore parte del agua que debe de llegar a las plantas.<br>
+
+9.- Existen electrodomésticos ecotec, que tienen como principal objetivo detectar fugas y economizan electricidad y agua, si está en tus manos compra uno de éstos.<br>
+
+10.- No arrojes basura a la calle, deposítala en un bote de basura y si no encuentras ninguno por tu paso, guárdala en tu bolsa o mochila y espera a tirarla en casa.<br>
+
+11.- Si te trasladarás a un lugar cercano opta por caminar o ir en bici, de igual forma para ir al trabajo ponte de acuerdo con compañeros que vivan cerca de tu casa, y compartan auto, ayudarán a reducir los efectos del CO2.<br>
+
+12.- Respeta las áreas verdes, jardines y parque públicos, no los dañes, no arrojes basura y si vas a pasear a tu mascota recoge sus heces fecales.<br>
+ </p></div>
+        </div>
+   </div>
+       
+      
+
+    </div>
+       <div data-role="footer"data-theme="b" data-position="fixed">
+       <h4>Dia de la Tierra , IPR </h4>
+       </div>
+       </div>
+       </div>
+       
+  
+       
+        <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>COMO SE CELEBRA EN ATLIXCO </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <P> El cambio climático es definido como un cambio estable y durable en la distribución de los patrones de clima en periodos de tiempo que van desde décadas hasta millones de años. Pudiera ser un cambio en las condiciones climáticas promedio o la distribución de eventos en torno a ese promedio (por ejemplo más o menos eventos climáticos extremos). El cambio climático puede estar limitado a una región específica, como puede abarcar toda la superficie terrestre.
+
+El término, a veces se refiere específicamente al cambio climático causado por la actividad humana, a diferencia de aquellos causados por procesos naturales de la Tierra y el Sistema Solar. En este sentido, especialmente en el contexto de la política ambiental, el término “cambio climático” ha llegado a ser sinónimo de “calentamiento global antropogénico“, o sea un aumento de las temperaturas por acción de los humanos.
+ </P>
+<!--asdasdsada-->
+<!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="wow/data1/images/ca1.jpg" alt="ca1" title="ca1" id="wows1_0"/></li>
+<li><img src="wow/data1/images/ca2.jpg" alt="ca2" title="ca2" id="wows1_1"/></li>
+<li><img src="wow/data1/images/ca3.jpg" alt="ca3" title="ca3" id="wows1_2"/></li>
+<li><img src="wow/data1/images/ca4.jpg" alt="ca4" title="ca4" id="wows1_3"/></li>
+<li><img src="wow/data1/images/ca5.jpg" alt="ca5" title="ca5" id="wows1_4"/></li>
+<li><img src="wow/data1/images/ca6.jpg" alt="ca6" title="ca6" id="wows1_5"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="ca1"><img src="wow/data1/tooltips/ca1.jpg" alt="ca1"/>1</a>
+<a href="#" title="ca2"><img src="wow/data1/tooltips/ca2.jpg" alt="ca2"/>2</a>
+<a href="#" title="ca3"><img src="wow/data1/tooltips/ca3.jpg" alt="ca3"/>3</a>
+<a href="#" title="ca4"><img src="wow/data1/tooltips/ca4.jpg" alt="ca4"/>4</a>
+<a href="#" title="ca5"><img src="wow/data1/tooltips/ca5.jpg" alt="ca5"/>5</a>
+<a href="#" title="ca6"><img src="wow/data1/tooltips/ca6.jpg" alt="ca6"/>6</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">Images Slideshow</a> by WOWSlider.com v4.8</span>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+ 
+       </div>
+       </div>
+            
+       <div data-role="footer"data-theme="b" data-position="fixed">
+       <h4>Dia de la Tierra , IPR </h4>
+       </div>
+       </div>
+       </div> 
+</body>
+</html>
