@@ -4,7 +4,7 @@
  * -   <script type="text/javascript" src="engine1/wowslider.mod.js"></script> (after "wowslider.js", before "script.js")
  *
  * wowslider-contaner, css-classes:
- * -   "playpause" : adds play/pause controll in slider
+ * -   "playpause" : adds play/pause control in slider
  * -   "fullscreen" : enable fullscreen-mode button
  * -   "hidecontrolls" : hide left on first slide and right on last
  * -   "hidetitles" : title and description only on mouse hover
